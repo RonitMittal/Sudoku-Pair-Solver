@@ -4,7 +4,7 @@ import numpy
 
 k=int(input("Enter Value of K "))
 
-with open("test_case_5.txt") as fname:
+with open("test_case.txt") as fname:
     #replace 'sample_data/test_case.txt' with the location of the--
     #-- text file containing test_cases in your device/environment
     a = numpy.loadtxt(fname, dtype = 'float', delimiter=",")
